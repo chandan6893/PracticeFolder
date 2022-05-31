@@ -1,0 +1,60 @@
+.MainCointainer{
+
+    background-color: aquamarine;
+    border-radius: 28px;
+    
+    line-height: 200px;
+    display: flex; 
+    
+     justify-content:center ; 
+     flex-wrap: wrap;
+     align-items: center;
+     
+    
+    
+    
+
+}
+.image{
+    
+    
+    display: flex;
+    /* justify-content: space-between;  */
+    
+    border-radius: 15px;
+    line-height: 125px;
+    
+    
+
+    
+
+}
+.A{
+    background-color: tan;
+    margin: 30px;  
+}
+.B{
+    background-color: blue;
+     margin: 30px; 
+}
+.C{
+    background-color: burlywood;
+    margin: 30px;
+}
+.D{
+    background-color: blueviolet;
+    margin: 30px;
+}
+.E{
+    background-color:brown ;
+    margin: 30px;
+}
+.F{background-color:brown ;
+    margin: 30px;}
+.G{background-color:brown ;
+    margin: 30px;}
+.H{background-color:brown ;
+    margin: 30px;}
+    .conundercon{
+        display: flex; 
+    }
