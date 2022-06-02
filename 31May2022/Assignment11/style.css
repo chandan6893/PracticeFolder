@@ -74,6 +74,7 @@ nav a{
     border: 3px solid green;
     text-align:center;
     margin: 15px 15px;
+    border-radius: 5px;
     /* padding: 5px; */
 }  
  .section{
@@ -111,6 +112,7 @@ nav a{
         margin: 15px 15px;
         padding: 5px;
         background-color: aquamarine;
+        border-radius: 5px;
     }
     .line{
         color: brown;
@@ -149,7 +151,20 @@ nav a{
         background-color: lightblue;
         padding:20px 0px ;
     }
-        
+
+      .size:hover , li:hover{
+          background-color:yellow;
+      } 
+      .T{
+          position: fixed;
+          bottom: 100px;
+          left: 1310px;
+          padding: 6px;
+          color:white;
+        border-radius: 50px;
+          background-color:coral;
+      } 
+
         
         
     
