@@ -154,6 +154,8 @@ nav a{
 
       .size:hover , li:hover{
           background-color:yellow;
+          width: 70px;
+          height: 70px;
       } 
       .T{
           position: fixed;
