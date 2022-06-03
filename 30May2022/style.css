@@ -9,20 +9,25 @@
      justify-content:center ; 
      flex-wrap: wrap;
      align-items: center;
+     /* margin: 250px; */
+     /* column-gap: 100px; */
+     row-gap: 200px;
+
+    }
      
     
     
     
 
-}
 .image{
     
     
     display: flex;
     /* justify-content: space-between;  */
     
-    border-radius: 15px;
+    border-radius: 105px;
     line-height: 125px;
+    
     
     
 
