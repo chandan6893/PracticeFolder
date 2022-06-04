@@ -122,7 +122,7 @@ nav a{
         justify-content: center;
         align-items: center;
         
-        width: 800px;
+        /* width: 800px; */
         /* justify-content: row; */
         /* flex-direction:row; */
         flex-wrap: wrap;
@@ -175,7 +175,7 @@ nav a{
 
     
 
-/* .clearfix::before,
+ .clearfix::before,
 .clearfix::after
 {
     content: "";
@@ -187,4 +187,4 @@ nav a{
 {
     
     clear: both;
-}  */
+}  
