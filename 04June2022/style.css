@@ -46,27 +46,29 @@ table {
     display: grid;
     border: 2px solid black;
     background-color: thistle;
-    grid-template-columns: 100px 300px 100px 100px ;
+    grid-auto-flow: column;
+    grid-template-columns: 100px 300px 100px 500px ;
     /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  */
-    grid-column-start: 1;
-    grid-column-end: -1;
-    grid-template-rows: 200px 140px 100px;
+    /* grid-column-start: 1; */
+    /* grid-column-end: -1; */
+    grid-template-rows: 200px 140px 100px 400px;
     /* grid-template-rows: 400px ; */
-    /* grid-auto-rows: minmax(100px, auto); */
+    grid-auto-rows: minmax(100px, auto);
     /* grid-gap: 5px; */
-    /* gap: 5px; */
-    grid-template-areas: "header header header header"
-                          "sidebar main main    main ";
+    /* column-gap: 5px; */
+    gap: 5px;
+    /* grid-template-areas: "header header header header" */
+                          /* "sidebar main main    main "; */
                          
 }
 header{
-    grid-area: header;
+    /* grid-area: header; */
 }
 aside{
-    grid-area: sidebar;
+    /* grid-area: sidebar; */
 }
 main{
-    grid grid-area: main;
+    /* grid grid-area: main; */
 }
 .item{
     background-color: tomato;
