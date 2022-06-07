@@ -33,26 +33,41 @@ a,.white{
 }
 main{
     background-color: aquamarine;
+    /* display: grid; */
+   
+    
+    
+    height: 100vh;
+    /* grid-gap: 10px; */
+}
+.container-3{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(6,1fr);
-    grid-template-areas: "header header header header "
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 280px 280px 280px 280px 280px 280px;
+    grid-template-areas:
+    "header header header header"
+    "sect1 scet2 sect3 sect4"
+    "sect5 sect6 sect7 sect8"
+    "sect9 sect10 sect11 sect12"
+    "sect13 sect14 sect15 sect16";
+     /* "header header header header "
                           "sect1 sect2 sect3 sect4 "
                           "sect5 sect6 sect7 sect8 "
                           "sect9 sect10 sect11 sect12 "
-                          "sect13 sect14 sect15 sect16 ";
-    
-    height: 100vh;
+                          "sect13 sect14 sect15 sect16 "; */
+
 }
 .head{
     grid-area: header;
-   background-color: brown;
+   background:url(/pict/Fuji_LPHero_FD21_en_US.jpg);
+   
 }
 #scet-1{
     grid-area: sect1;
     background-color: black;
-
 }
+
+
 
 
 
