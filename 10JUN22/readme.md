@@ -1,0 +1,1 @@
+<img src="C:\Users\hp\Desktop\practice!\10JUN22\LogPho\output image.jpeg" alt="">
