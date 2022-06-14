@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none ;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+    max-height: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(210, 224, 125);
+}
+.navbar{
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+nav ul{
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 16px;
+    transition: .5s;
+}
+nav ul ul{
+    position: absolute;
+}
